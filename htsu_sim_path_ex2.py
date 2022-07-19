@@ -129,3 +129,4 @@ plt.scatter(loc_x, loc_y, s=3, c='k', marker='o', edgecolors=None)
 
 # Save figure
 plt.savefig(savefile)
+plt.show()
