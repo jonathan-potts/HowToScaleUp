@@ -74,7 +74,6 @@ kernel = [[[[]]]]
 for from_y in range(box_height):
     if from_y != 0:
         kernel += [[[[]]]]
-    sys.stdout.write("%i\n" % from_y)
     for from_x in range(box_width):
         if from_x != 0:
             kernel[from_y] += [[[]]]
@@ -93,7 +92,6 @@ for from_y in range(box_height):
                 kernel[from_y][from_x][to_y][to_x] /= kernel_sum
 
 for step in range(1,step_no):
-    sys.stdout.write("%i\n" % step)
     for to_y in range(box_height):
         for to_x in range(box_width):
             sumval[to_y][to_x] = 0
