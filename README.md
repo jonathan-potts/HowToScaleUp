@@ -4,4 +4,4 @@ Potts JR, Borger L. (2022) How to scale up from animal movement decisions to spa
 
 The files htsu_figN.py, for N=1,3,4, reproduce Figure N.
 
-For the other files, detailed explanations of them, and how they relate to the underlygin mathematical formulae and ecological pheonmena, are given in the Supplementary Appendices of the above paper, also downloadable from the above link.
+For the other .R and .py files, detailed explanations of them, and how they relate to the underlygin mathematical formulae and ecological pheonmena, are given in the Supplementary Appendices of the above paper, also downloadable from the above link.
