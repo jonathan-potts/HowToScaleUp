@@ -5,6 +5,10 @@
 #          patterns: an approach via step selection" by JR Potts and L Borger
 #
 # Usage: python htsu_fig3.py htsu_sim_4paths_full.out htsu_sim_4paths_noavoid.out htsu_sim_4paths_nocp.out htsu_sim_4paths_nores.out random_field_100.inp 0 100 0 100 1 1 0 10 fig3.png
+#
+# Author: Jonathan R. Potts
+#
+# Feel free to share and adapt, but giving appropriate credit
 ################################################################################
 
 import sys,math,pylab,numpy,random

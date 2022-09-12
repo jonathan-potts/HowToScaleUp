@@ -4,6 +4,10 @@
 # Purpose: Plot Figure 4
 # 
 # Usage: python htsu_fig4.py htsu_plot_bif.inp htsu_plot_bif.png
+#
+# Author: Jonathan R. Potts
+#
+# Feel free to share and adapt, but giving appropriate credit
 ################################################################################
 
 import sys
