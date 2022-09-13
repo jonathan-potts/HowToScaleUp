@@ -4,7 +4,7 @@
 # Purpose: Plots Figure 1 of "How to scale up from animal movement decisions to spatio-temporal
 #          patterns: an approach via step selection" by JR Potts and L Borger
 #
-# Usage: python htsu_fig1.py random_field_100.inp 1.5 0.2 0.2 1 1000 -4 4 1 fig1.png
+# Usage: python htsu_fig1.py random_field_100.inp 2 0.25 0.2 1 1000 -4 4 1 fig1.png
 #
 # Author: Jonathan R. Potts
 #
@@ -201,13 +201,13 @@ plt.contour(hr_contour, origin='lower',colors=['b','m'], extent=[0,len(mk_dist[0
 plt.scatter([xc],[yc], s=70, c='k', marker='o', edgecolors=None)
 plt.scatter([start_y],[start_y], s=70, c='k', marker='o', edgecolors=None)
 plt.plot([start_x-10,start_x-0.5],[start_y+10,start_y+0.5], linewidth=2,color='k')
-plt.plot([start_x-10,start_x-8, start_x-6, start_x-4, start_x-2,start_x-0.5],[start_y+10,start_y+10,start_y+10,start_y+10,start_y+10,start_y+10], 'k--',linewidth=1)
+plt.plot([start_x-10,start_x-10, start_x-10, start_x-10, start_x-10,start_x-10],[start_y+10,start_y+12,start_y+14,start_y+16,start_y+18,start_y+20], 'k--',linewidth=1)
 plt.plot([start_x-0.5,start_x-0.5],[start_y+0.5,start_y+2.5], linewidth=2,color='k')
 plt.plot([start_x-2.5,start_x-0.5],[start_y+0.5,start_y+0.5], linewidth=2,color='k')
 plt.text(21,77,'a)',fontsize=26)
 plt.text(48.5,50.8,r'${\bf x}_C$',fontsize=26)
 plt.text(46,44.2,r'${\bf x}$',fontsize=26)
-plt.text(37.1,53.0,r'$\alpha_{\bf x}$',fontsize=26)
+plt.text(37.1,54.0,r'$\alpha_{\bf x}$',fontsize=26)
 
 fig.add_subplot(1,2,2)
 plt.hold('on')
